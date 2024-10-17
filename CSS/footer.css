@@ -1,0 +1,45 @@
+footer{
+    margin-top: 50px;
+}
+
+footer .col-12{
+    text-align: center;
+}
+
+a#endereco{
+    color: #EBA937;
+}
+
+footer img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+#social a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #EBA937;
+    margin: 70px 20px 0px 20px;
+    transition: all .3s;
+}
+
+#social a:hover{
+    color: white;
+    transition: all .3s;
+}
+
+#direitos{
+    margin-top: 60px;
+
+    .col-12{
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        p{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

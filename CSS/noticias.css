@@ -1,0 +1,41 @@
+#noticias {
+    margin-top: 60px;
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 45px;
+    padding-top: 60px;
+    border-radius: 30px;
+}
+
+.carousel-inner,
+.carousel,
+.carousel.slide {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.carousel-inner .carousel-caption {
+    background: linear-gradient(to top, #000, rgba(0, 0, 0, 0.3));
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 250px;
+}
+
+#titulo-noticias{
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    background-color: #EEB909;
+    font-family: "Bungee Hairline", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: -30px;
+    right: 30;
+}
+
+#saiba-mais{
+    width: 70%;
+}

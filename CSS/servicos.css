@@ -1,0 +1,30 @@
+#servicos{
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 25%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+
+#titulo-servicos{
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    background-color: #EEB909;
+    font-family: "Bungee Hairline", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: -35px;
+    left: 30;
+}
+
+.card{
+    background: none;
+    border: none;
+}
+
+.card-body{
+    padding: 30px;
+}

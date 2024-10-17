@@ -1,0 +1,71 @@
+#navegacao{
+    position: absolute;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+
+#logo{
+    width: 200px;
+}
+
+#links{
+    width: 450px;
+}
+
+#links ul {
+    display: inline;
+}
+
+nav ul {
+    display:flex;
+    width: 100%;
+}
+
+#links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin: 5% 0.63em;
+    transition: .3s;
+}
+
+#links ul li a:hover{
+    color: #EBA937;
+    transition: .3s;
+}
+
+.btn.btn-primary{
+    background: none;
+    border: 3px solid #ffffff;
+    transition: .3s;
+    border-radius: 30px;
+    align-self: center;
+    margin: 20px;
+}
+
+.btn.btn-primary:hover{
+    border: 3px solid #EBA937;
+    transition: .3s;
+    color: #EBA937;
+}
+
+.dropdown-menu{
+    background-color: #000;
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+#inscrever{
+    background-color: #EBA937;
+    color: #000;
+}
+
+#inscrever:hover{
+    background-color: #fff;
+}
+

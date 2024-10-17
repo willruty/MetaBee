@@ -1,0 +1,531 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+#conteudo {
+    padding: 0;
+    z-index: 5;
+}
+
+.color-yellow {
+    color: #EBA937;
+}
+.bg-yellow {
+    background-color: #EBA937;
+}
+
+.color-white {
+    color: white;
+}
+.bg-white {
+    background-color: white;
+}
+
+.color-black {
+    color: black;
+}
+.bg-black {
+    background-color: black;
+}
+
+.btn.btn-warning{
+    border-radius: 10px;
+    color: black;
+    font-weight: 400;
+    transition: .3s;
+}
+.btn.btn-warning:hover{
+    background-color: #ffd207;
+    border: 1px solid #ffd207;
+    scale: 1.05;
+    transition: .3s;
+}
+
+
+/* Extra Small devices (phones, 576px and down) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    body ,
+    #conteudo {
+        width: 500px;
+        height: 100%;
+        margin: 0px;
+    }
+
+    /* NavBar */
+    nav #links ul,
+    #login {
+        display: none;
+    }
+
+    nav#navegacao.container-fluid {
+        position: relative;
+        width: 100%;
+    }
+
+    .container#conteudo {
+        min-width: 500px;
+    }
+
+    /* Banner */
+    img#fundo-banner {
+        width: 500px;
+        height: 340px;
+        background-size: cover;
+    }
+
+    div#capa {
+        max-width: 500px;
+        margin-top: 8%;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        #titulo {
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+
+        #sub-titulo {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .descricao-titulo {
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+    }
+
+    /* Serviços */
+    #servicos .col-12 {
+        margin-top: 50px;
+    }
+
+    #servicos #titulo-servicos {
+        margin-left: 35px;
+    }
+
+    /* Noticias */
+    #noticias div .col-12 {
+
+        .carousel .slide {
+            border-radius: 30px;
+        }
+
+        #descricao-noticias {
+            text-align: center;
+
+            h4 {
+                font-size: 2.5rem;
+                font-family: "Dosis", Arial, Helvetica, sans-serif;
+                margin-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+            }
+
+        }
+    }
+
+    /* sobre nós */
+    #sobre-nos {
+
+        .row .col-12{
+
+            img{
+                display: none;
+            }
+        }
+
+    }
+
+    /* Footer */
+    #conteudo #direitos{
+        
+        div.col-12{
+            min-width: 500px;
+        }
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* NavBar */
+    nav #links ul,
+    #login {
+        display: none;
+    }
+
+    /* Noticias */
+    #noticias div .col-12 {
+
+        .carousel .slide {
+            border-radius: 30px;
+            max-width: 100px;
+        }
+
+        #descricao-noticias {
+            text-align: center;
+
+            h4 {
+                font-size: 2.5rem;
+                font-family: "Dosis", Arial, Helvetica, sans-serif;
+                margin-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+            }
+
+        }
+    }
+
+    /* sobre nós */
+    #sobre-nos {
+
+        .row .col-12{
+
+            img{
+                display: none;
+            }
+        }
+
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* NavBar */
+    nav #links ul,
+    #login {
+        display: none;
+    }
+
+    nav a #logo {
+        width: 150px;
+    }
+
+    nav .btn.btn-primary {
+        margin: 10px;
+    }
+
+    /* Banner */
+    div#capa {
+        width: 400px;
+        margin-top: 25%;
+        margin-bottom: 0;
+
+        #titulo {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        #sub-titulo {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .descricao-titulo {
+            font-weight: 500;
+            font-size: 1rem;
+        }
+    }
+
+    /* Serviços */
+    div#servicos {
+        margin-top: 40px;
+    }
+
+    #servicos .col-12 {
+        width: 33.33%;
+    }
+
+    /* Noticias */
+    #noticias div .col-12 {
+
+        .carousel-inner,
+        .carousel,
+        .carousel.slide {
+            width: 630px;
+            border-radius: 30px;
+        }
+
+        #descricao-noticias {
+            text-align: center;
+
+            h4 {
+                font-size: 2.5rem;
+                font-family: "Dosis", Arial, Helvetica, sans-serif;
+                margin-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+            }
+
+        }
+    }
+
+    /* sobre nós */
+    #sobre-nos {
+
+        .row .col-12{
+
+            img{
+                display: none;
+            }
+        }
+
+    }
+
+    /* Footer */
+    footer .row{
+        align-items: center;
+    }
+
+    footer .col-12#info{
+        width: 50%;
+        height: 100px;
+        margin-bottom: 0;
+    }
+
+    footer .col-12#social{
+        width: 100%;
+    }
+
+    footer .col-12#logo-footer{
+        width: 50%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* NavBar */
+    .dropdown {
+        display: none;
+    }
+
+    /* Banner */
+    div#capa {
+        max-width: 500px;
+
+        #titulo {
+            font-size: 4rem;
+            font-weight: 900;
+        }
+
+        #sub-titulo {
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+        .descricao-titulo {
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+    }
+
+    /* Serviços */
+    #servicos .col-12 {
+        width: 30%;
+    }
+
+    /* noticias */
+    #noticias div .col-12 {
+
+        align-items: center;
+
+        .carousel-inner,
+        .carousel,
+        .carousel.slide {
+            width: 800px;
+            margin-left: 2%;
+        }
+
+        .carousel-inner .carousel-caption {
+            padding-top: 370px;
+        }
+
+        #descricao-noticias {
+            text-align: center;
+
+            h4 {
+                margin-top: 1rem;
+                font-size: 3rem;
+                font-family: "Dosis", Arial, Helvetica, sans-serif;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-top: 2.5em;
+                margin-bottom: 2.5em;
+            }
+
+        }
+    }
+
+    /* sobre nós */
+    #sobre-nos {
+
+        .row .col-12{
+            width: 50%;
+
+            p{
+                font-size: 1.2em;
+            }
+
+            img{
+                width: 100%;
+                border-radius: 30px;
+                margin-top: 2em;
+            }
+
+            .pics{
+                display: none;
+            }
+        }
+
+    }
+
+    /* footer */
+    footer .row{
+        align-items: center;
+    }
+
+    footer .col-12#info{
+        width: 33.33%;
+
+        p{
+            margin: 0;
+        }
+
+    }
+
+    footer .col-12#social{
+        width: 33.33%;
+
+        a{
+            line-height: 1em;
+        }
+    }
+
+    footer .col-12#logo-footer{
+        width: 33.33%;
+
+        img{
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    /* NavBar */
+    .dropdown {
+        display: none;
+    }
+
+    /* Serviços */
+    #servicos .col-12 {
+        width: 30%;
+    }
+
+    /* noticias */
+    #noticias div .col-12 {
+        width: 50%;
+
+        #descricao-noticias {
+            text-align: center;
+
+            h4 {
+                font-size: 3rem;
+                font-family: "Dosis", Arial, Helvetica, sans-serif;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-top: 2.5em;
+                margin-bottom: 2.5em;
+            }
+
+        }
+    }
+
+    /* sobre nós */
+    #sobre-nos {
+
+        #titulo-sobre-nos{
+            margin-top: 60px;
+        }
+
+        .row .col-12{
+            width: 50%;
+
+            h4{
+                font-size: 2.7rem;
+                margin-top: 1em;
+            }
+
+            p{
+                font-size: 1.3em;
+            }
+
+            #manequim{
+                width: 100%;
+            }
+
+            img{
+                width: 90%;
+                border-radius: 30px;
+                margin-top: 2em;
+            }
+        }
+
+    }
+
+    /* footer */
+    footer .row{
+        align-items: center;
+    }
+
+    footer .col-12#info{
+        width: 33.33%;
+
+        p{
+            margin: 0;
+        }
+
+    }
+
+    footer .col-12#social{
+        width: 33.33%;
+
+        a{
+            line-height: 1em;
+        }
+    }
+
+    footer .col-12#logo-footer{
+        width: 33.33%;
+
+        img{
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

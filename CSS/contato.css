@@ -1,0 +1,45 @@
+.form-control {
+    border-radius: 20px;
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.form-floating label {
+    color: #000000;
+}
+
+
+.form-check-input{
+    background-color: black;
+    border: 3px solid #EBA937;
+    height: 20px;
+}
+.form-check-input::before{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #EBA937;
+    height: 20px;
+}
+.form-check-input:focus{
+    background-color: black;
+    border: 3px solid #EBA937;
+    box-shadow: none;
+}
+.form-check-input:checked{
+    background-color: black;
+    border: 3px solid #EBA937;
+}
+
+
+#enviar{
+    margin-top: 10px;
+    margin-left: 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#enviar:hover{
+    background-color: #EBA937;
+    color: black;
+}

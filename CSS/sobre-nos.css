@@ -1,0 +1,43 @@
+#titulo-sobre-nos{
+    padding: 10px;
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #EEB909;
+    text-align: center;
+
+    color: black;
+    font-family: "Bungee Hairline", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#sobre-nos{
+    border: none;
+
+    #fotos{
+        columns: 230px;
+
+        .pics{
+            width: 100%;
+        }
+
+    }
+
+
+}
+
+#descricao-sobre-nos{
+    text-align: center;
+
+    h4{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: 1.6em;
+    }
+
+    p{
+        font-size: 1.3em;
+        margin: 3em 0;
+    }
+}
