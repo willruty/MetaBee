@@ -1,0 +1,57 @@
+.form-control {
+    border-radius: 20px;
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.form-floating label {
+    color: #000000;
+}
+
+.form-floating{
+    width: 30%;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#opcoes {
+    width: 390px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+}
+
+#LGPD{
+    display: flex;
+    
+    input {
+        margin: 20px;
+    }
+
+    p {
+        float: right;
+    }
+}
+
+#opcoes:focus{
+    box-shadow: none;
+    border: none;
+}
+
+
+#enviar{
+    margin-top: 10px;
+    margin-left: 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#enviar:hover{
+    background-color: #EBA937;
+    color: black;
+}
