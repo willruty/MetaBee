@@ -50,7 +50,7 @@ body {
 
     body ,
     #conteudo {
-        width: 500px;
+        width: auto;
         height: 100%;
         margin: 0px;
     }
@@ -63,22 +63,23 @@ body {
 
     nav#navegacao.container-fluid {
         position: relative;
-        width: 100%;
+        width: 105%;
     }
 
     .container#conteudo {
-        min-width: 500px;
+        width: 120%;
     }
 
     /* Banner */
     img#fundo-banner {
-        width: 500px;
+        width: 125%;
         height: 340px;
         background-size: cover;
     }
 
     div#capa {
-        max-width: 500px;
+        max-width: 120%;
+        min-width: 104.1%;
         margin-top: 8%;
         background-color: rgba(0, 0, 0, 0.5);
 
@@ -107,6 +108,10 @@ body {
         margin-left: 35px;
     }
 
+    div#servicos.container-fluid{
+        width: 105%;
+    }
+
     /* Noticias */
     #noticias div .col-12 {
 
@@ -132,8 +137,13 @@ body {
         }
     }
 
+    div#noticias.container-fluid {
+        width: 105%;
+    }
+
     /* sobre nós */
-    #sobre-nos {
+    div#sobre-nos.container-fluid {
+        width: 105%;
 
         .row .col-12{
 
@@ -144,11 +154,28 @@ body {
 
     }
 
+    /* Contato */
+    div#contato.container-fluid {
+        width: 104%;
+
+        & div.row.align-items-center.gx-5 {
+            width: 108%;
+        }
+    }
+
     /* Footer */
+    footer.container-fluid {
+        width: 105%;
+    }
+
+    div#direitos.container-fluid {
+        width: 110%;
+    }
+
     #conteudo #direitos{
         
         div.col-12{
-            min-width: 500px;
+            min-width: 125%;
         }
     }
 }
