@@ -1,7 +1,7 @@
 # Projeto MetaBee
-![Fundo banner](/Projeto%20MetaBee/img/fundo-banner2.jpg)
+![Fundo banner](img/fundo-banner2.jpg)
 ## Descrição geral
-### Este projeto consiste na reformulação do site oficial de uma empresa de robótica, desenvolvido como parte do trabalho de semestre do curso de Engenharia de Software. O objetivo foi aplicar conceitos de desenvolvimento web, design responsivo e usabilidade, mantendo a identidade visual e as funcionalidades originais do site.
+Este projeto consiste na reformulação do site oficial de uma empresa de robótica, desenvolvido como parte do trabalho de semestre do curso de Engenharia de Software. O objetivo foi aplicar conceitos de desenvolvimento web, design responsivo e usabilidade, mantendo a identidade visual e as funcionalidades originais do site.
 
 ## Tecnologias usadas:
 
@@ -21,5 +21,3 @@
 
 [Link do site oficial](https://metabee.tec.br/)  
 [Link para demonstração ao vivo](https://willruty.github.io/MetaBee/)
-
-
